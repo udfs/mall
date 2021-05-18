@@ -1,27 +1,33 @@
 <template>
   <div id="app">
-    <a href="./a.html">a</a>
+    <router-view></router-view>
+    <use-tab></use-tab>
   </div>
 </template>
 
 <script>
-
-
+import useTab from 'components/content/tabbar/useTab.vue'
 export default {
-  name: 'app',
+  ame: "app",
   components: {
-    
+    useTab,
+  },
+  data() {
+    return {
+
+    };
+  },
+  methods:{
+
+  },
+  computed:{
+
   }
 }
+
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import './assets/css/bass.css';
+
 </style>
