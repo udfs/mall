@@ -1,6 +1,6 @@
 <template>
     <div class="nav-bar">
-       <div class="left" @click="back()" >
+       <div class="left">
            <slot name="left"></slot>
        </div>
        <div class="center">
@@ -16,13 +16,11 @@ export default {
     name:"navBar",
     data(){
         return{
-
+            isShow:true,//用于判断是否显示返回按钮
         }
     },
     methods:{
-        back(){
-            this.$router.go(-1)
-        }
+        
     }
     
 }
