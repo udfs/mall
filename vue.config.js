@@ -10,7 +10,7 @@ module.exports={
             }
         }
     },
-    devServer:{
+    devServer:{ // vue配置跨域
         proxy: {
           '/api': {
             // http://192.168.1.46:6020/lzkj_yw4/kyxm/spbm._do

@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 // import Home from '../views/home.vue'
-const Home = ()  => import('../views/home.vue')
+const Home = ()  => import('../views/home/home')
 const Category=()=> import('../views/category')
 Vue.use(VueRouter)
 

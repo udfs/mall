@@ -11,14 +11,14 @@
             //(2)axios拦截器
                 //2.1拦截请求：拦截后修改config、发送请求时显示图标、某些请求需要携带信息（比如需要登录的请求要携带token）
             instance.interceptors.request.use(config=>{//拦截成功
-                console.log(config);
+                // console.log(config);
                 return config //将拦截下的config返回
             },err=>{//拦截失败
                 console.log(err);
             })
                 //2.1拦截响应：
             instance.interceptors.response.use(res=>{//拦截结果成功
-                console.log(res);
+                // console.log(res);
                 return res.data
             },err=>{//拦截失败成功
                 console.log(err);

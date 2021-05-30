@@ -22,11 +22,11 @@ export default {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: -2px;
+  bottom: -1px;
   padding: 5px 0;
   margin:0px;
   border: 0px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 1px 1px 3px 0 rgba(100, 100, 100, .5);
 }
 .el-row{
   display:flex

@@ -27,9 +27,11 @@ export default {
 </script>
 <style scoped>
 .nav-bar{
+    font-size: 20px;
     display: flex;
     line-height: 44px;
-    box-shadow: 1px 1px 3px 0 rgba(100, 100, 100, .5)
+    box-shadow: 1px 1px 3px 0 rgba(100, 100, 100, .5);
+
 }
 .left,.right{
     width: 60px;
